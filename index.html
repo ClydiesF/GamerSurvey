@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gamer Survey Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+         <!-- BOOSTSTRAP-->
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+         
+        <!--Custom Styles-->
+        <link rel="stylesheet" href="CSS/styles.css">
+        <!--Google imported fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Shrikhand" rel="stylesheet">
+
+       
+    </head>
+    <body>
+        <h1 id="title">Gamer Survey Form</h1>
+            <!-- will hold the actual form below. -->
+            <div id="main-content">
+                <form id="survey-form">
+                    <p>Let us know when you started gaming, who you are and what games you enjoy the most!</p>
+
+                    <!--WHO ARE YOU-->
+                    <label id="name-label" class="label">First Name:</label>
+                    <input type="text" placeholder="Enter First Name" required autofocus>
+                    <label id="name-label" class="label">Last Name:</label>
+                    <input type="text" placeholder="Enter Last Name" required>
+                    <label id="number-label" class="label">Current Age:</label>
+                    <input type="number" placeholder="Enter your Age" required>
+                    <label id="email-label" class="label">Email address:</label>
+                    <input type="email" placeholder="Enter Email address" aria-required="">
+                    
+<hr>
+                    <!--GAMER INFO-->
+                    <label class="label">Gamer Tag:</label>
+                    <input type="text" placeholder="Enter your Gamer tag">
+ 
+                    <label class="label" class="label">Video Game consoles that you own:</label>
+                    <div id="checkboxoption">
+                    <ul>
+                        <li><label><input type="checkbox">Xbox One</label></li>
+                        <li><label><input type="checkbox">Playstation 4</label></li>
+                        <li><label><input type="checkbox">Nintendo Switch</label></li>
+                    <li><label><input type="checkbox">Mobile Cell phone games</label></li>
+                </ul>
+            </div>
+
+                    
+                    <label class="label">Which is your favorite console:</label>
+                    <select id="dropdown">
+                        <option disabled selected>Select a console</option>
+                        <option>Xbox One</option>
+                        <option>Playstation 4</option>
+                        <option>Nintendo Switch</option>
+                        <option>Nvidia Sheild</option>
+                        <option>Mobile</option>
+                    </select>
+                    <hr>
+
+<div id="Gameofyear">
+                    <div id="GOY-label">
+                    <label>Which Game should be Game of the year for 2018:</label>
+                    </div>
+
+                    <div id="GOY-options">
+                        <ul>
+                            <li><label><input type="radio" name="gameofyear">Zelda: Breathe of the Wild</label></li>
+                            <li><label><input type="radio" name="gameofyear">Cuphead: dont deal with the Devil</label></li>
+                            <li><label><input type="radio" name="gameofyear">Dragonball FighterZ</label></li>
+                        </ul>
+                        </div>
+                    </div>
+                     
+
+
+
+
+
+
+
+
+
+                    <!--Text Area asking the survey-filler what they would like the game industry to go in the future-->
+                    <label class="label">What do you want to see the game industry do in the next couple of year with thier next gen consoles:</label>
+
+                    <textarea rows="6" cols="30" placeholder="Enter your comment here..."></textarea>
+
+                    <!--Submit-->
+                    <div id="submit-button">
+                    <input type="submit" id="submit" class="btn btn-primary">
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </form>
+
+            </div>
+
+        
+        <script src=""></script>
+    </body>
+</html>

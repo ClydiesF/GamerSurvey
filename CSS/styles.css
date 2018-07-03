@@ -1,0 +1,77 @@
+/** STYLES FOR THE SURVEY FORM BODY and MAIN TITLE **/
+ body {
+     background-color: bisque;
+     font-family: 'Raleway', sans-serif;
+     background-image: url("../Images/videogamelogo.jpg");
+     background-size: cover;
+ }
+h1 {
+    color:blue;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 50px;
+    font-weight: 10px;
+
+}
+
+/** FORM STYLING THAT WILL APPLY TO THE FORM **/
+
+#main-content {
+    background-color: rgba(188, 188, 202, 0.712);
+    border-radius: 2%;
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+form {
+    padding: 20px;
+}
+
+#Gameofyear {
+    padding-top: 10px;
+
+}
+#GOY-label {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: right;
+}
+
+#GOY-options {
+    display: inline-block;
+    width: 50%;
+    
+}
+
+li {
+    padding-top: 0px;
+    list-style-type: none;
+  
+}
+
+.label {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: right;
+    padding: 5px;
+    
+}
+
+#checkboxoption {
+    display: inline-block;
+    width: 50%;
+}
+
+#submit {
+    display: block;
+    margin:auto;
+    
+}
+
+p {
+    text-align: center;
+}
