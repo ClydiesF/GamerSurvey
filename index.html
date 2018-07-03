@@ -27,9 +27,9 @@
 
                     <!--WHO ARE YOU-->
                     <label id="name-label" class="label">First Name:</label>
-                    <input type="text" placeholder="Enter First Name" required autofocus>
+                    <input type="text" placeholder="Enter First Name" required autofocus pattern="[a-z]{1,15}" title="should only contain lower-case letters">
                     <label id="name-label" class="label">Last Name:</label>
-                    <input type="text" placeholder="Enter Last Name" required>
+                    <input type="text" placeholder="Enter Last Name" required pattern="[a-z]{1,15}" title="should only contain lower-case letters">
                     <label id="number-label" class="label">Current Age:</label>
                     <input type="number" placeholder="Enter your Age" required>
                     <label id="email-label" class="label">Email address:</label>
